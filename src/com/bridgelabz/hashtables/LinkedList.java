@@ -40,6 +40,9 @@ public class LinkedList<T> {
 		while (temp != null && !temp.getKey().equals(key)) {
 			temp = temp.getNext();
 		}
+		if(temp==null) {
+			
+		}
 		return temp;
 	}
 
